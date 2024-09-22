@@ -1,0 +1,30 @@
+{
+  "ego.power-tools": {
+    "startup": [
+      {
+        "type": "script",
+        "script": "fetch_types.js"
+      }
+    ],
+    "commands": {
+      "fetchTypes": {
+        "name": "Fetch Types",
+        "script": "fetch_types.js",
+        "button": {
+          "color": "#fff000",
+          "text": "Fetch Types"
+        }
+      }
+    }
+  },
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 80,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
