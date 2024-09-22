@@ -6,7 +6,7 @@ import Chart from "../components/Chart";
 
 interface IHomeProps {}
 
-const Home: FC<IHomeProps> = ({}) => {
+const Home: FC<IHomeProps> = () => {
   const { realTimeData } = useContext(DataContext);
 
   const chartConfig: DeepPartial<TimeChartOptions> = {

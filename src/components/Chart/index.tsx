@@ -108,6 +108,7 @@ const Chart: FC<IChartProps> = ({
       histogramSeriesRef.current?.setData(histogramSeriesData);
       chartRef.current?.timeScale().fitContent();
     });
+    // eslint-disable-next-line
   }, [intervalOption, dataFetched]);
 
   // adding realtime series data

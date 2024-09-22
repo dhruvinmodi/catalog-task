@@ -91,6 +91,7 @@ const DataProvider: FC<IDataProviderProps> = ({ children }) => {
       setRealTimeData(realTimeDataGenerator.next().value);
     }, 1000);
     return () => clearInterval(interval);
+    // eslint-disable-next-line
   }, []);
 
   return (
